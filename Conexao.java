@@ -1,10 +1,10 @@
-package conexao;
+package Connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 public class Conexao{
-    private final String bd="formulario";
+    private final String bd="aula";
     private final String usuario = "root";
     private final String senha ="";
     public Connection conectar(){

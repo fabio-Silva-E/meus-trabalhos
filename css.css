@@ -7,30 +7,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : fabio
 */
 
-table {
+table ,th{
   padding: 15px;
  
   border: transparent;
   outline: 1px solid black; /* ou use box-shadow */
   position: relative;
-  z-index: 3; /* garante que a tabela fique sobre o elemento de texto */
+  
 }
 
-.border-text {
-  position: absolute;
-  top: 10px; /* ajuste para posicionar o texto na borda */
-  left: 20px; /* ajuste para posicionar o texto na borda */
-  background-color: white;
-  padding: 5px;
- 
-  z-index: 4; /* garante que o elemento de texto fique sobre a borda da tabela */
-}
-.border-text2{
-  position:absolute;
-  top: 110px; /* ajuste para posicionar o texto na borda */
-  left: 20px; /* ajuste para posicionar o texto na borda */
-  background-color: white;
-  padding: 5px;
- 
-  z-index: 2; /* garante que o elemento de texto fique sobre a borda da tabela */
-}
